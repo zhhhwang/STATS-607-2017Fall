@@ -66,7 +66,7 @@ def coordinate_descent(func_grad_1d, init_point, step_size, num_iters,
             # TASK 2.2.2
             # choose dim random integers in {0,...,dim-1}
             # (with replacement)
-            coordinates = [random.chioce(range(dim)) for i in range(dim)]
+            coordinates = [random.choice(range(dim)) for i in range(dim)]
         else:
             raise Exception("Expected argument choice to be either 'cyclic' \
                             or 'random', got %s." % choice)
