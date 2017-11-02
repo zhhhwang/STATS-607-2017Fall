@@ -1,2 +1,4 @@
 # STATS-607-2017Fall
-Homework of Course STATS 607
+Homeworks of Course STATS 607 at the University of Michigan
+
+## Content
